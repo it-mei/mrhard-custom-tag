@@ -1,0 +1,49 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/demo/demo",
+			"style": {
+				"navigationBarTitleText": "demo首页",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/tabbarPage1/tabbarPage1",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/tabbarPage2/tabbarPage2",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/tabbarPage3/tabbarPage3",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	    ,{
+            "path" : "pages/form/form",
+            "style" : {}
+        }
+    ],
+	"tabBar": {
+		"color": "#C1C0C9",
+		"selectedColor": "#FE8B1E",
+		"list": [{
+				"pagePath": "pages/tabbarPage1/tabbarPage1"
+			},
+			{
+				"pagePath": "pages/tabbarPage2/tabbarPage2"
+			},
+			{
+				"pagePath": "pages/demo/demo"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "自定义组件",
+		"navigationBarBackgroundColor": "#327cc0"
+	}
+}
